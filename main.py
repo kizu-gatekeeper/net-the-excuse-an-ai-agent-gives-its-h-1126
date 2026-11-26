@@ -1,6 +1,7 @@
 """Entry for make.fun bounty: The Excuse an AI Agent Gives Its Human.
 
 Writes a single line (at most 200 characters) to $MAKEFUN_OUTPUT_DIR/entry.txt.
+The line is written exactly as composed, with no trailing newline.
 """
 
 import os
